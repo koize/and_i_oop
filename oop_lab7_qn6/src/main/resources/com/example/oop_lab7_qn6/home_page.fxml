@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.oop_lab7_qn6.HomeController">
+   <children>
+      <Label layoutX="261.0" layoutY="191.0" text="Second scene" />
+      <Button fx:id="btn_back" layoutX="277.0" layoutY="269.0" mnemonicParsing="false" onAction="#onBackClick" text="Back" />
+   </children>
+</AnchorPane>
